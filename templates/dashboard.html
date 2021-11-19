@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css') }}">
     <title>Document</title>
 </head>
 <body>
-    <h1>oioioi</h1>
+    <div class="container">
+        <div class="card center">
+            <h1>Dashboard</h1>
+            <br> 
+            <a href="/estados/ricos" class="botao2 botao-pequeno"> 
+                Estados Ricos 
+            </a> <br> 
+            <a href="/estados/pobres" class="botao2 botao-pequeno"> 
+                Estados Pobres 
+            </a> <br> 
+            <a href="/naologado" class="botao2 botao-pequeno"> 
+                sair 
+            </a>
+        </div>  
+    </div>  
 </body>
 </html>

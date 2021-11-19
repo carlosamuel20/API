@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,16 @@
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css') }}">
     <title>Document</title>
 </head>
-<body>
 
+<body>
     <div class="container">
-        <div class="card center">
-            <h1>Usuário não logado</h1>
-            <a href="/" class="botao2 botao-pequeno">Fazer Login</a>
-        </div>  
-    </div>  
-    
+        <div class="card">
+            <textarea name="estados" cols="30" rows="10" disabled>
+             {{dados_estados}}
+            </textarea>
+            <a href="/dashboard" class="botao center bg-red"> Voltar </a>
+        </div>
+    </div>
 </body>
+
 </html>

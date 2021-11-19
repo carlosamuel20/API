@@ -11,6 +11,7 @@ client = pymongo.MongoClient('localhost',27017)
 db = client.login
 
 from user import routes 
+from estado import routes 
 
 @app.route('/')
 def login():
