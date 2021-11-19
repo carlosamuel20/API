@@ -27,10 +27,4 @@ def cadastrar():
     else:
         return render_template('cadastrar.html')
 
-# @app.route('/estados')
-# def estados():
-#     return render_template('exibirestados.html')
 
-
-
-# db.usuarios.insert({"_id":5,"nome":"teste","senha":"$pbkdf2-sha256$29000$WouR8j7nnLNWyrk3BkBorQ$JfCtGjjpzj/bwSHK95od7/KfcUCvfLjEsKW8yaNER7A"})

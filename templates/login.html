@@ -17,11 +17,13 @@
     <div class="container">
         <div class="card center">
             <h1 class="login">LOG-IN</h1>
-            <form action="/logar" method="post">
-            <input class="usuario "type="text" name="nome" id="usuario" placeholder="Usuário"> <br>
-            <input class="senha" type="password" name="senha" id="senha"  placeholder="Senha"> <br>
-            <button class="botao">Enviar</button> <br> <br> <br> 
-            <a href="/cadastrar" class="botao2 botao-pequeno bg-red"> Cadastrar novo usuario</a>
+            <form action="/logar" method="post" class="formulario">
+                <input class="usuario "type="text" name="nome" id="usuario" placeholder="Usuário"> 
+                <input class="senha" type="password" name="senha" id="senha"  placeholder="Senha"> 
+                <div class="controle">
+                    <button class="botao">Enviar</button>  
+                    <a href="/cadastrar" class="cadastrar"> Cadastrar-se</a>
+                </div>
             </form>
         </div>
     </div>

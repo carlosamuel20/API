@@ -3,10 +3,9 @@ import pandas as pd
 import pymongo
 
 
-# df = pd.read_csv('vw_pib_percapita.csv',encoding='iso-8859-1',delimiter =',')
-
 app = Flask(__name__, template_folder='./templates')
 app.secret_key = b'\xf5\xdc\xf6\xa7\x06\xb1\x11U\xe3\x18\xd0C\xde\xf9<\xd2'
+
 client = pymongo.MongoClient('localhost',27017) 
 db = client.login
 

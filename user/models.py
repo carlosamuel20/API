@@ -44,4 +44,4 @@ class Usuarios:
         session.clear()
         return redirect('/naologado')
 
-        # {"_id":"2","nome":"teste","senha":"$pbkdf2-sha256$29000$htAaw3iP8b6Xcq71npNyTg$bAoJeyDeuAxyGrSHqnkfIefRlcqYaIB1wGG2vEXrEIA"},"$pbkdf2-sha256$29000$XmsNASCktJbS.h9DyBlDiA$ZC8itMx.vhWQZVE11rSvsv4mGC7ssiRfGTY.nmpqjHA"]
+       

@@ -8,11 +8,25 @@ html, body{
 
 }
 
+.defaultbtn{
+    color: white;
+    background: rgb(54, 54, 54);
+    font-size: 13px;
+    padding: 10px 5px;
+    text-decoration: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(40deg, rgb(8, 194, 101), rgb(40, 209, 125) );
+    background-image: linear-gradient(40deg, rgb(4, 102, 109), rgb(20, 136, 182) );
+    height: 100%;
     height: 100%;
 }
 
@@ -28,19 +42,73 @@ html, body{
 
 }
 
+.textcard{
+    width: 30vw;
+    background: hsl(0 0% 90%);
+    border-radius: 25px;
+    justify-content: stretch;
+    padding: 30px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    outline: none;
+    border: none;    
+    
+
+}
+
 .card > *{
     position: relative;
-    border-radius: 5px;
+    border-radius: 10px;
     outline: none;
     border: none;
-    padding: 10px;
-    margin: 0;
+    width: 70%;
 }
 
-.card :nth-child(3){
+h1{
+    color: gray;
+}
+
+.formulario :nth-child(2){
     margin: 10px 0px;
+
 }
 
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.formulario >*{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+.controle{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    padding: 0;
+}
+
+.controle >*{
+    margin: 0;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    flex-grow: 1;
+    font-size: 13px;
+}
 
 .login{
     color: grey;
@@ -48,6 +116,7 @@ html, body{
     align-items: center;
     justify-content: center;
     font-family: roboto;
+    padding: 10px;
 }
 
  
@@ -77,6 +146,16 @@ html, body{
     text-align: center; 
 }
 
+.botao{
+    margin-right: 10px;
+    color: white;
+    background: rgb(15, 159, 196);
+}
+.cadastrar{
+    color: white;
+    background: rgb(54, 54, 54);
+}
+
 .botao2{ 
     background:rgb(90, 90, 90); 
     color: white; 
@@ -92,4 +171,3 @@ html, body{
 .botao-pequeno{ 
     padding: 8px; 
 } 
- 
