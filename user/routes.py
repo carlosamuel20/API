@@ -4,7 +4,7 @@ from flask.json import jsonify
 from app import app
 from user.models import Usuarios
 
-@app.route('/usuario/sair/')
+@app.route('/sair/')
 def sair():
     return Usuarios().sair()
 

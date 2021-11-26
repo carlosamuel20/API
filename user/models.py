@@ -36,9 +36,6 @@ class Usuarios:
             return redirect(url_for('dashboard')) 
         else: 
             return abort(401)
-     
-    def sair(self): 
-        return jsonify(self.usuario)
 
     def sair(self):
         session.clear()
